@@ -1,0 +1,109 @@
+#comments {}
+
+.comments-header {
+	margin-top: 24px;
+	margin-bottom: 32px;
+}
+
+.comments-header .title {
+	margin-bottom: 24px;
+	color: #030303;
+	display: flex;
+	align-items: center;
+}
+
+.comments-header .title .count {
+	display: flex;
+	width: 122.82;
+	margin-right: 32px;
+	justify-content: space-between;
+}
+
+.comments-header .title .count span {
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 0.1;
+}
+
+.comments-header .title .count span:nth-child(2) {
+	display: inline-block;
+	width: 73px;
+	text-align: right;
+	letter-spacing: 0.1;
+}
+
+.comments-header .title .sort {
+	display: flex;
+	cursor: pointer;
+	align-items: center;
+}
+
+.sort-icon {
+	width: 24px;
+	height: 24px;
+	margin-right: 8px;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' class='style-scope yt-icon' style='pointer-events:none;display:block;width:100%25;height:100%25'%3E%3Cg class='style-scope yt-icon'%3E%3Cpath d='M21 6H3V5h18v1zm-6 5H3v1h12v-1zm-6 6H3v1h6v-1z' class='style-scope yt-icon'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.sort-label {
+	color: #030303;
+	font-size: 13px;
+	font-weight: 500;
+	letter-spacing: 0.5;
+	text-transform: uppercase;
+}
+
+.comment-box {
+	height: 67.94px;
+	display: flex;
+}
+
+.profile-thumbnail.user {
+	width: 40px;
+	height: 40px;
+	margin-right: 16px;
+}
+
+.profile-thumbnail img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+.add-comment {
+	flex: 1;
+}
+
+.comment-container {
+	margin-bottom: 8px;
+	border-bottom: 0.5px solid #606060;
+}
+
+.input-container input {
+	width: 100%;
+	padding-bottom: 4.5px;
+}
+
+.btn-group {
+	text-align: right;
+}
+
+.btn-group .cancel-btn {
+	padding: 10px 16px;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 0.5;
+	font-weight: 500;
+	color: #606060;
+}
+
+.btn-group .comment-btn {
+	padding: 10px 16px;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 0.5;
+	font-weight: 500;
+	margin-left: 8px;
+	background-color: rgba(0, 0, 0, 0.05);
+	color: #909090;
+}

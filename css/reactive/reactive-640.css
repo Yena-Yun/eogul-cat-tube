@@ -1,0 +1,19 @@
+.searchbox {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.search-form {
+	display: none;
+}
+
+.search-icon {
+	width: 60px;
+	height: 40px;
+	background: transparent;
+	border: none;
+}
+
+#secondary {
+	flex: auto;
+}

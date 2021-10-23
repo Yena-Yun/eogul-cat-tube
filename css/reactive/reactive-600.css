@@ -1,0 +1,12 @@
+.view-and-date {
+	display: flex;
+	flex-direction: column;
+}
+
+.dot {
+	display: none;
+}
+
+.upload-date {
+	display: none;
+}

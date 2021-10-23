@@ -1,0 +1,222 @@
+#primary {
+	padding-top: 22px;
+	padding-right: 24px;
+	margin-left: 26px;
+	min-width: 426px;
+}
+
+.player {
+	width: 100%;
+	margin: auto;
+}
+
+.player video {
+	width: 100%;
+}
+
+.info {
+	padding: 12px 0 1px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.video-title {
+	display: block;
+	line-height: 1.8rem;
+	overflow: hidden;
+}
+
+.video-metadata {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.view-and-date {
+	width: 178px;
+	height: 20px;
+	font-size: 13px;
+	color: #606060;
+	display: flex;
+}
+
+.view-and-date .view-count::after {
+	content: "•";
+	margin: 0 4px;
+}
+
+.action-btn-container {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+.action-btns {
+	display: flex;
+}
+
+.toggle-btn.like {
+	width: 68.25px;
+}
+
+.toggle-btn.dislike {
+	width: 67.38px;
+	margin-left: 7px;
+}
+
+.toggle-btn.share {
+	width: 89px;
+	margin-left: 7px;
+}
+
+.toggle-btn.save {
+	width: 78.22px;
+	margin-left: 7px;
+}
+
+.toggle-btn a {
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-right: 6px;
+	flex: 1 1 auto;
+	text-transform: uppercase;
+	color: #030303;
+	letter-spacing: 0.5px;
+	font-weight: 500;
+	font-size: 13px;
+}
+
+.icon {
+	padding: 6px;
+	width: 22px;
+	height: 22px;
+}
+
+.like-svg {
+	width: 22px;
+	height: 22px;
+	margin: 0;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' class='style-scope yt-icon' style='pointer-events:none;display:block;width:100%25;height:100%25'%3E%3Cg class='style-scope yt-icon'%3E%3Cpath d='M3 11h3v10H3V11zm15.77 0h-4.23l1.52-4.94C16.38 5.03 15.54 4 14.38 4c-.58 0-1.14.24-1.52.65L7 11v10h10.43c1.06 0 1.98-.67 2.19-1.61l1.34-6c.27-1.24-.78-2.39-2.19-2.39z' class='style-scope yt-icon'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.dislike-svg {
+	width: 22px;
+	height: 22px;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' class='style-scope yt-icon' style='pointer-events:none;display:block;width:100%25;height:100%25'%3E%3Cg class='style-scope yt-icon'%3E%3Cpath d='M17 4H6.57c-1.07 0-1.98.67-2.19 1.61l-1.34 6C2.77 12.85 3.82 14 5.23 14h4.23l-1.52 4.94C7.62 19.97 8.46 21 9.62 21c.58 0 1.14-.24 1.52-.65L17 14h4V4h-4zm-6.6 15.67c-.19.21-.48.33-.78.33-.26 0-.5-.11-.63-.3a.534.534 0 0 1-.09-.47l1.52-4.94.4-1.29H5.23c-.41 0-.8-.17-1.03-.46a.846.846 0 0 1-.18-.72l1.34-6c.1-.47.61-.82 1.21-.82H16v8.61l-5.6 6.06zM20 13h-3V5h3v8z' class='style-scope yt-icon'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.share-svg {
+	width: 22px;
+	height: 22px;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' class='style-scope yt-icon' style='pointer-events:none;display:block;width:100%25;height:100%25'%3E%3Cg class='style-scope yt-icon'%3E%3Cpath d='M15 5.63 20.66 12 15 18.37V14h-1c-3.96 0-7.14 1-9.75 3.09 1.84-4.07 5.11-6.4 9.89-7.1l.86-.13V5.63M14 3v6C6.22 10.13 3.11 15.33 2 21c2.78-3.97 6.44-6 12-6v6l8-9-8-9z' class='style-scope yt-icon'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.save-svg {
+	width: 22px;
+	height: 22px;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' preserveAspectRatio='xMidYMid meet' focusable='false' class='style-scope yt-icon' style='pointer-events: none; display: block; width: 100%25; height: 100%25;'%3E%3Cg class='style-scope yt-icon'%3E%3Cpath d='M22,13h-4v4h-2v-4h-4v-2h4V7h2v4h4V13z M14,7H2v1h12V7z M2,12h8v-1H2V12z M2,16h8v-1H2V16z' class='style-scope yt-icon'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+}
+
+.moreBtn {
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.more-svg {
+	width: 22px;
+	height: 22px;
+	margin: 0;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' preserveAspectRatio='xMidYMid meet' focusable='false' class='style-scope yt-icon' style='pointer-events: none; display: block; width: 100%25; height: 100%25;'%3E%3Cg class='style-scope yt-icon'%3E%3Cpath d='M7.5,12c0,0.83-0.67,1.5-1.5,1.5S4.5,12.83,4.5,12s0.67-1.5,1.5-1.5S7.5,11.17,7.5,12z M12,10.5c-0.83,0-1.5,0.67-1.5,1.5 s0.67,1.5,1.5,1.5s1.5-0.67,1.5-1.5S12.83,10.5,12,10.5z M18,10.5c-0.83,0-1.5,0.67-1.5,1.5s0.67,1.5,1.5,1.5s1.5-0.67,1.5-1.5 S18.83,10.5,18,10.5z' class='style-scope yt-icon'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+}
+
+.like-bars {
+	margin-left: 2px;
+	min-width: 140px;
+	max-width: 140px;
+	height: 1.5px;
+	background-color: #030303;
+}
+
+#meta {
+	display: block;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	margin-bottom: 24px;
+	padding-bottom: 16px;
+}
+
+.top-row {
+	display: flex;
+	margin-bottom: 12px;
+	padding-top: 16px;
+}
+
+.channel-info {
+	flex: 3;
+	display: flex;
+	align-items: center;
+}
+
+.channel-profile {
+	width: 64px;
+	height: 50.67px;
+	margin: 0;
+	cursor: pointer;
+}
+
+.channel-profile img {
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.channel-name {
+	width: 100%;
+}
+
+.channel-name p {
+	font-size: 13px;
+	cursor: pointer;
+}
+
+.subscribe-info {
+	flex: 1;
+	width: 167.58px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.subscribe-btn {
+	width: 119.58;
+	height: 36.89;
+	color: #606060;
+	background: rgba(0, 0, 0, 0.05);
+	border-radius: 2px;
+	padding: 10px 16px;
+	font-weight: 500;
+	letter-spacing: 0.5;
+	text-transform: uppercase;
+	margin: auto 4px;
+}
+
+.alarm-svg {
+	width: 24px;
+	height: 24px;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' class='style-scope yt-icon' style='pointer-events:none;display:block;width:100%25;height:100%25'%3E%3Cg class='style-scope yt-icon'%3E%3Cpath d='M10 20h4c0 1.1-.9 2-2 2s-2-.9-2-2zm10-2.65V19H4v-1.65l2-1.88v-5.15C6 7.4 7.56 5.1 10 4.34v-.38c0-1.42 1.49-2.5 2.99-1.76.65.32 1.01 1.03 1.01 1.76v.39c2.44.75 4 3.06 4 5.98v5.15l2 1.87zm-1 .42-2-1.88v-5.47c0-2.47-1.19-4.36-3.13-5.1-1.26-.53-2.64-.5-3.84.03C8.15 6.11 7 7.99 7 10.42v5.47l-2 1.88V18h14v-.23z' class='style-scope yt-icon'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.description-info {
+	display: block;
+	max-width: 615px;
+	margin-left: 57px;
+}
+
+.description-info p {
+	font-size: 13px;
+}
