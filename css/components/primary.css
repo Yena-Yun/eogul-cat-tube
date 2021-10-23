@@ -2,7 +2,7 @@
 	padding-top: 22px;
 	padding-right: 24px;
 	margin-left: 26px;
-	min-width: 426px;
+	min-width: 664px;
 }
 
 .player {
@@ -12,6 +12,7 @@
 
 .player video {
 	width: 100%;
+	min-width: 440px;
 }
 
 .info {

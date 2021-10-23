@@ -1,8 +1,8 @@
 #secondary {
 	padding-top: 16px;
 	padding-right: 24px;
-	width: 402px;
-	min-width: 300px;
+	min-width: 324px;
+	max-width: 426px;
 	display: flex;
 	flex-direction: column;
 }
@@ -41,7 +41,6 @@
 	content: "";
 	pointer-events: none;
 }
-
 
 .right-arrow-container::before {
 	background: linear-gradient(to left, #f9f9f9 10%, rgba(249, 249, 249, 0) 90%);
@@ -116,7 +115,6 @@
 
 .iron-selector {
 	display: flex;
-	/* justify-content: flex-start; */
 	transition-duration: 0.15s;
 	transition-timing-function: cubic-bezier(0.05, 0, 0, 1);
 	will-change: transform;
